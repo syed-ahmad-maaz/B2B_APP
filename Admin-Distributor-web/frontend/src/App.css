@@ -1,0 +1,21 @@
+.header-ul li
+{
+  display: inline-block;
+  padding: 10px;
+}
+.header-ul
+{
+  padding: 5px;
+  background-color: black;
+}
+.header-ul li a{
+  color:wheat;
+  text-decoration: none;
+  padding: 5px;
+}
+h1{
+  text-align: center;
+}
+.App{
+  text-align: center;
+}

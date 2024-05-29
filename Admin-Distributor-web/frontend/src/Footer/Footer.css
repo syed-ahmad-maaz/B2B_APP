@@ -1,0 +1,8 @@
+.foot{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgb(26, 29, 28);
+    width: 100%;
+    text-align: center;
+}
