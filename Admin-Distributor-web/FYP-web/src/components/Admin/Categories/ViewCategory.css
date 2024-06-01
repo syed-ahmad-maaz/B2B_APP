@@ -1,0 +1,34 @@
+
+.heroku{
+    /* background-color:rgb(206, 199, 224) */
+    background-color: whitesmoke;
+
+}
+.new,.new1{
+    color: black;
+}
+.abc{
+    width: 190px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.updatebuttons{
+   
+    width: 130px;
+    height: 40px;
+    background-color: green;
+  /* margin-left: 2%;
+  margin-right: 6%;
+  margin-top: 9%;
+  justify-content: center; */
+  margin-left: 50%;
+margin-right: 30%;
+
+  
+}
+

@@ -1,0 +1,140 @@
+.navbar {
+  /* background-color:rgb(25, 98, 192); */
+ 
+  background-color: #1377db;
+  height: 62px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbars
+{
+  background-color:#1377db;
+  height: 62px;
+
+ 
+  
+}
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none; 
+   
+   }
+  
+  .nav-menu {
+    
+    height: 100vh;
+    width: 270px;
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:-100%;
+    background-color: white;
+    transition:.5sease;
+    overflow-x:hidden;
+    padding-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+    
+    
+  }
+  .nav-menu.active {
+    left: 0;
+    transition: 150ms;
+   
+  }
+  
+  .nav-text {
+    display: flex;
+    /* warning aye thi phly j-c center tha  */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 50px;
+    overflow: auto;
+    
+  }
+
+  .nav-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: lightgray;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: white;
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    /* warning aye thi phly j-c start tha  */
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+
+  /* by me for the logout  */
+  /* .logout{
+    
+    color: white;
+   
+    font-size: 23px;
+    padding: 990px 0px 0px 1000px;
+   
+   
+  } */
+  .pti{
+    position: fixed;
+    color: white;
+    padding: 3px 32px;
+    
+  
+    
+  }
+  .runaway{
+   color: white!important;;
+  }
+  .pti select.jjj{
+    /* all: unset; */
+    all: initial;
+  }
+  .jjj{
+    color: white;
+    position: fixed;
+    display: block;
+    padding-left: 1180px;
+   
+  
+  }
+
+ 
+  .logout-icon {
+    position: absolute;
+    right: 2rem; /* position the element 2rem from the right edge of its parent */
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    top: 1rem;
+   
+    
+  }

@@ -1,0 +1,13 @@
+.foot{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    /* background-color: rgb(0, 0, 0); */
+    width: 100%;
+    text-align: center;
+    height: 9vh;
+}
+#ab{
+    color: rgb(78, 75, 75);
+   
+}

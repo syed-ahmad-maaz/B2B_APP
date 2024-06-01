@@ -1,0 +1,51 @@
+.fun:hover{
+
+    background-color: rgba(122, 160, 19, 0.699);
+}
+.codewithsherry:hover{
+    background-color: rgb(245, 243, 239);
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: 10px 10px 10px  rgb(27, 26, 26);
+
+}
+.fix
+{
+    position: fixed;
+}
+.abd{
+    width: 200px;
+}
+.special1{
+    color: white;
+    background-color: rgb(97, 16, 16);
+    border-radius: 30px solid black;
+}
+.deletee{
+    background-color: red;
+    width: 60px;
+    cursor: pointer;
+}
+.edit{
+    background-color: green;
+    width: 60px;
+    cursor: pointer;
+}
+.funn{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.tableclass{
+    background-color:rgb(132, 143, 142)
+}
+.Android{
+    background-color: #04AA6D;
+}
